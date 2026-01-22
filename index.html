@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form and Table</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-top: 20px;
+            background-color: black;
+            color: gold;
+        }
+
+        table, th, td {
+            border: 1px solid gold;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        form {
+            width: 50%;
+        }
+
+        label {
+            display: inline-block;
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Form</h2>
+
+    <form>
+        <label>Roll No:</label>
+        <input type="text" name="rollno"><br><br>
+
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Address:</label>
+        <textarea name="address"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Student Table</h2>
+
+    <table>
+        <tr>
+            <th colspan="3">Student Details</th>
+        </tr>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ajeshwaree</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Shrushti</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tanvi</td>
+            <td>Dubai</td>
+        </tr>
+    </table>
+
+</body>
+</html>
